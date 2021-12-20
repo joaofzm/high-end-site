@@ -1,0 +1,43 @@
+.footer {
+  background-color: rgb(110, 108, 107);
+  height: 6vh;
+  display: flex;
+}
+
+.footer h4{
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+.endereco {
+  /* background-color: aquamarine; */
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2%;
+}
+
+.telefones {
+  /* background-color: bisque; */
+  display: flex;
+  width: 40%;
+  align-items: center;
+  margin-right: 2%;
+  justify-content: right;
+}
+
+@media screen and (max-height: 800px) {
+  .footer {
+    background-color: rgb(110, 108, 107);
+    height: 10vh;
+  display: flex;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .footer h4{
+  font-size: 14px;
+  }
+}
+

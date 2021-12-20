@@ -1,0 +1,48 @@
+.hero {
+  background-image: linear-gradient(128deg, rgb(0, 0, 0) 0%, rgb(14, 14, 14) 80%);
+  height: 88vh;
+  padding-top: 4%;
+  display: block;
+}
+
+.logo {
+  padding-top: 18%;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.youtubeVideo{
+  width:32.2%;
+  height:45%;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+
+@media screen and (max-height: 800px) {
+ .hero {
+  height: 80vh;
+ }
+
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    padding-top: 50%;
+  }
+  .youtubeVideo{
+    margin-top: 12%;
+    margin-left: 1%;
+    width:98%;
+  }
+  #youtubeVideo2{
+    visibility: 0;
+    display: none;
+  }
+}
+
+
+
+
+
