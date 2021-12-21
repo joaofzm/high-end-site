@@ -32,14 +32,26 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(
-    -225deg,
-    #ff7300 0%,
-    #ffac74 29%,
-    #414141 67%,
-    #ff7300 100%
-  );
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   transition: 0.3s ease-in;
+}
+
+.externalDetailing{
+  background-image: url(../images/externalDetailing.jpg);
+}
+
+.coating{
+
+}
+
+.internalDetailing{
+  background-image: url(../images/internalDetailing.jpg);
+}
+
+.piecesAndParts{
+  background-image: url(../images/piecesAndParts.jpg);
 }
 
 .services__card p {
