@@ -36,6 +36,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   transition: 0.3s ease-in;
+  border: 2px solid rgb(255, 102, 2);
 }
 
 .externalDetailing{
