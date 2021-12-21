@@ -30,7 +30,6 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   color: #fff;
   background-position: center;
   background-size: cover;
@@ -44,7 +43,7 @@
 }
 
 .coating{
-
+  background-image: url(../images/coating.png);
 }
 
 .internalDetailing{
@@ -64,7 +63,7 @@
 .services__btn {
   display: flex;
   justify-content: center;
-  margin-top: 16px;
+  margin-top: 80%;
 }
 
 .services__card button {
@@ -85,6 +84,18 @@
   transform: scale(1.075);
   transition: 0.3s ease-in;
   cursor: pointer;
+}
+
+
+.serviceMenuP{
+  display: flex;
+  margin-top: 50px;
+  color: rgb(255, 102, 2);
+  background:black;
+  height: 27px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
 }
 
 @media screen and (max-height: 900px){
@@ -132,6 +143,7 @@
   .services__wrapper {
     grid-template-columns: 1fr 1fr;
   }
+
   .services {
     height: 70vh;
     padding: 10rem 0;
