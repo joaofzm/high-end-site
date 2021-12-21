@@ -6,3 +6,7 @@
   font-style: oblique;
   font-weight: lighter;
 }
+
+a{
+  text-decoration: none;
+}

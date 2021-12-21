@@ -23,7 +23,7 @@
   font-size: 70px;
   /* background-color: orchid; */
   text-align: center;
-  color: rgb(192, 93, 0);
+  color: rgb(255, 102, 2);
 }
 
 .aboutUsTextContainer {
@@ -64,7 +64,7 @@
   }
 }
 
-@media screen and (max-height: 800px) {
+@media screen and (max-height: 850px) {
   .hero {
     height: 80vh;
   }

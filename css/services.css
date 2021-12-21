@@ -1,126 +1,75 @@
-.services {
-  /* background: #7a1818; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 70vh;
-  padding: 10rem 0;
-}
-
-.servicesH4 {
-  margin-top: 4%;
-  margin-bottom: 4%;
-  font-size: 70px;
-  /* background-color: orchid; */
-  text-align: center;
-  color: rgb(192, 93, 0);
-}
-
-.services__wrapper {
+.itemsDiv{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 5fr;
 }
 
-.services__card {
-  margin: 10px;
-  height: 42vh;
-  width: 20vw;
-  border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  color: #fff;
-  background-image: linear-gradient(
-    -225deg,
-    #ff7300 0%,
-    #ffac74 29%,
-    #414141 67%,
-    #ff7300 100%
-  );
-  transition: 0.3s ease-in;
+
+.servicesItem{
+  border: 3px solid rgb(255, 102, 2);
+  background: rgba(65, 65, 65, 0.329);
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 5%;
 }
 
-.services__card p {
-  text-align: center;
-  margin-top: 24px;
-  font-size: 20px;
-}
-
-.services__btn {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-}
-
-.services__card button {
-  color: #fff;
-  padding: 14px 24px;
+.main__btn {
+  /* margin-left: 15%; */
+  font-size: 1.8rem;
+  background: #422020;
+  background: -webkit-linear-gradient(to right, #4400ff, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #7a3b00, #ff7b00, rgb(160, 77, 0));
+  /* padding: 2vh 3vh; */
   border: none;
-  outline: none;
   border-radius: 4px;
-  background: #ff7b00;
-  font-size: 1rem;
-}
-
-.services__card button:hover {
   cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
 }
 
-.services__card:hover {
-  transform: scale(1.075);
-  transition: 0.3s ease-in;
-  cursor: pointer;
+.main__btn a {
+  position: relative;
+  z-index: 2;
+  color: #fff;
 }
 
-@media screen and (max-height: 900px){
-  .services__card {
-    margin: 10px;
-    height: 20vh;
-    width: 40vw;
-  }
-  .servicesH4 {
-    margin-top: -40%;
-    margin-bottom: 1%;
-    font-size: 35px;
-  }
+.main__btn:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff6600;
+  transition: all 0.35s;
+  border-radius: 4px;
 }
 
-@media screen and (max-height: 800px){
-  .services__card {
-    margin: 10px;
-    height: 25vh;
-    width: 40vw;
-  }
-  
-  .servicesH4 {
-    margin-top: 1%;
-    margin-bottom: 1%;
-    font-size: 35px;
-  }
-
-  .services__card button {
-    padding: 7px 12px;
-  }
+.main__btn:hover {
+  color: #fff;
 }
 
-@media screen and (max-width: 1000px) {
-  .services__wrapper {
-    grid-template-columns: 1fr 1fr;
+.main__btn:hover:after {
+  width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+  .servicesItem{
+    margin-top: 10%;
+    margin-bottom: 8%;
   }
-  .services {
-    height: 70vh;
-    padding: 10rem 0;
+  .main__btn {
+    font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 768px) {
-  .services__wrapper {
-    grid-template-columns: 1fr 1fr;
+@media screen and (max-height: 600px) {
+  .servicesItem{
+    margin-top: 4%;
+    margin-bottom: 5%;
   }
-  .services {
-    height: 70vh;
-    padding: 10rem 0;
+  .main__btn {
+    font-size: 1rem;
   }
 }
