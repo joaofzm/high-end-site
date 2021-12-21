@@ -6,6 +6,7 @@
 
 
 .servicesItem{
+  font-size: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,6 +67,10 @@
   .main__btn {
     font-size: 1rem;
   }
+
+  .longText{
+    font-size: 13px;
+  }
 }
 
 @media screen and (max-height: 600px) {
@@ -73,6 +78,7 @@
     margin-top: 4%;
     margin-bottom: 5%;
   }
+
   .main__btn {
     font-size: 1rem;
   }
