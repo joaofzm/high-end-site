@@ -1,5 +1,9 @@
 .hero {
-  background-image: linear-gradient(128deg, rgb(0, 0, 0) 0%, rgb(14, 14, 14) 80%);
+  background-image: linear-gradient(
+    128deg,
+    rgb(0, 0, 0) 0%,
+    rgb(14, 14, 14) 80%
+  );
   height: 88vh;
   padding-top: 4%;
   display: block;
@@ -22,24 +26,16 @@
   color: rgb(192, 93, 0);
 }
 
-.aboutUsTextContainer{
-width: 50%;
-margin-left: 25%;
+.aboutUsTextContainer {
+  width: 50%;
+  margin-left: 25%;
 }
 
-.aboutP{
+.aboutP {
   color: rgb(255, 255, 255);
   text-align: center;
-  /* justify-content: center; */
   font-size: 20px;
   margin-bottom: 2%;
-}
-
-@media screen and (max-height: 800px) {
- .hero {
-  height: 80vh;
- }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -47,23 +43,59 @@ margin-left: 25%;
     padding-top: 50%;
   }
 
+  .aboutUsTextContainer {
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 6%;
+  }
+}
+
+@media screen and (max-height: 900px) {
+  .hero {
+    height: 80vh;
+  }
+
   .aboutH4 {
     font-size: 50px;
   }
 
-  .aboutUsTextContainer{
-    width: 96%;
-    margin-left: 2%;
-    margin-top: 6%;
-    }
-
-  .aboutP{
-    font-size: 17px;
+  .aboutP {
+    font-size: 14px;
   }
-
 }
 
+@media screen and (max-height: 800px) {
+  .hero {
+    height: 80vh;
+  }
 
+  .aboutH4 {
+    font-size: 30px;
+  }
 
+  .aboutP {
+    font-size: 15px;
+  }
 
+  .logo {
+    padding-top: 15%;
+  }
+}
 
+@media screen and (max-height: 700px) {
+  .hero {
+    height: 80vh;
+  }
+
+  .aboutH4 {
+    font-size: 30px;
+  }
+
+  .aboutP {
+    font-size: 13px;
+  }
+
+  .logo {
+    padding-top: 15%;
+  }
+}
