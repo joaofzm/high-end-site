@@ -10,26 +10,25 @@
 }
 
 .endereco {
-  /* background-color: aquamarine; */
+  background-color: aquamarine;
   display: flex;
-  width: 60%;
-  justify-content: space-between;
+  width: 58%;
+  justify-content: left;
   align-items: center;
   margin-left: 2%;
 }
 
 .telefones {
-  /* background-color: bisque; */
+  background-color: bisque;
   display: flex;
-  width: 40%;
+  width: 38%;
   align-items: center;
-  margin-right: 2%;
   justify-content: right;
+  margin-right: 2%;
 }
 
 @media screen and (max-height: 850px) {
   .footer {
-    background-color: rgb(110, 108, 107);
     height: 10vh;
     display: flex;
   }
