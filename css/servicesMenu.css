@@ -104,7 +104,7 @@
   }
 }
 
-@media screen and (max-height: 800px){
+@media screen and (max-height: 850px){
   .services__card {
     margin: 10px;
     height: 25vh;
@@ -170,7 +170,7 @@
   }
 
   .services__btn {
-    margin-top: 25%;
+    margin-top: 21%;
   }
   
 }
