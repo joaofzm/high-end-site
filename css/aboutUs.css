@@ -103,3 +103,9 @@
     padding-top: 12%;
   }
 }
+
+@media screen and (max-height: 850px) and (min-width: 700px) {
+  .logo {
+    padding-top: 8%;
+  }
+}
