@@ -70,32 +70,36 @@
   }
 
   .aboutH4 {
-    font-size: 30px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-size: 40px;
   }
 
   .aboutP {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .logo {
-    padding-top: 15%;
+    padding-top: 5%;
   }
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 850px) {
   .hero {
     height: 80vh;
   }
 
   .aboutH4 {
-    font-size: 30px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    font-size: 40px;
   }
 
   .aboutP {
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .logo {
-    padding-top: 15%;
+    padding-top: 12%;
   }
 }
