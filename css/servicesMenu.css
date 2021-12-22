@@ -151,3 +151,22 @@
     padding: 10rem 0;
   }
 }
+
+@media screen and (max-height: 850px) and (min-width: 700px) {
+  .servicesH4 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(192, 93, 0);
+  }
+
+  .services {
+    height: 35vh;
+  }
+
+  .services__card {
+    margin: 10px;
+    height: 28vh;
+    width: 20vw;
+  }
+  
+}
