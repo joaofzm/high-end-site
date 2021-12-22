@@ -10,7 +10,7 @@
 }
 
 .endereco {
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   display: flex;
   width: 58%;
   justify-content: left;
@@ -19,7 +19,7 @@
 }
 
 .telefones {
-  background-color: bisque;
+  /* background-color: bisque; */
   display: flex;
   width: 38%;
   align-items: center;
