@@ -168,5 +168,9 @@
     height: 28vh;
     width: 20vw;
   }
+
+  .services__btn {
+    margin-top: 25%;
+  }
   
 }
