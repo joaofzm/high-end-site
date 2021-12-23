@@ -19,13 +19,22 @@
   margin-bottom: 5%;
 }
 
+.serviceDetailsH4{
+  margin-top: 4%;
+  margin-bottom: 4%;
+  font-size: 55px;
+  text-align: center;
+  color: rgb(255, 102, 2);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
+}
+
+
 .main__btn {
-  /* margin-left: 15%; */
   font-size: 1.8rem;
   background: #422020;
   background: -webkit-linear-gradient(to right, #4400ff, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #7a3b00, #ff7b00, rgb(160, 77, 0));
-  /* padding: 2vh 3vh; */
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -74,13 +83,22 @@
   }
 }
 
-@media screen and (max-height: 600px) {
+@media screen and (max-height: 850px) {
   .servicesItem{
     margin-top: 4%;
     margin-bottom: 5%;
   }
 
+  .serviceDetailsH4{
+    font-size: 40px;
+  }
   .main__btn {
     font-size: 1rem;
+  }
+}
+
+@media screen and (max-height: 650px) {
+  .serviceDetailsH4{
+    font-size: 22px;
   }
 }
