@@ -7,6 +7,10 @@
   font-weight: lighter;
 }
 
+body {
+  background-color: rgb(110, 108, 107);
+}
+
 a{
   text-decoration: none;
 }
