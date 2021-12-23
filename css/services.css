@@ -102,3 +102,11 @@
     font-size: 22px;
   }
 }
+
+@media screen and (max-height: 850px) and (min-width: 700px) {
+  .itemsDiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 3fr;
+  }
+}
