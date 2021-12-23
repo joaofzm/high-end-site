@@ -143,7 +143,7 @@
 
 .navbar__menu.active {
   /* background: #f05800ef; */
-  background: linear-gradient(to right, #494949, #ff7b00,#494949);
+  background: linear-gradient(to right, #929292d8, #000000,#929292d8);
   top: 5%;
   opacity: 1;
   transition: all 0.5s ease;
