@@ -15,6 +15,8 @@
   /* background-color: orchid; */
   text-align: center;
   color: rgb(192, 93, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #fff;
 }
 
 .services__wrapper {
