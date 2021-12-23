@@ -174,9 +174,8 @@
 
 @media screen and (max-height: 800px) {
   .navbar {
-    background-color: rgb(110, 108, 107);
     height: 10vh;
-  display: flex;
+    display: flex;
   }
 
   .followUs {
