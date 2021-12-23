@@ -1,5 +1,6 @@
 .navbar {
-  background-color: rgb(110, 108, 107);
+  /* background-color: rgb(110, 108, 107); */
+  background: linear-gradient(to right, #494949,#8a6a4c, #905925,#8a6a4c, #494949);
   height: 6vh;
   display: flex;
 }
