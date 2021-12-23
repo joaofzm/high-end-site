@@ -11,7 +11,6 @@
 }
 
 .endereco {
-  /* background-color: aquamarine; */
   display: flex;
   width: 100%;
   justify-content: left;
@@ -20,7 +19,6 @@
 }
 
 .telefones {
-  /* background-color: bisque; */
   display: flex;
   width: 38%;
   align-items: center;
