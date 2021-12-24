@@ -1,6 +1,13 @@
 .navbar {
   /* background-color: rgb(110, 108, 107); */
-  background: linear-gradient(to right, #aaa9a9,#494949, #2c2c2c,#494949, #aaa9a9);
+  background: linear-gradient(
+    to right,
+    #aaa9a9,
+    #494949,
+    #2c2c2c,
+    #494949,
+    #aaa9a9
+  );
   height: 6vh;
   display: flex;
 }
@@ -10,7 +17,7 @@
   font-size: 30px;
 }
 
-.homePage{
+.homePage {
   background-color: rgb(37, 37, 37);
   font-weight: bold;
   display: flex;
@@ -30,32 +37,33 @@
   margin-left: 2%;
 }
 
-.iconeRedeSocial{
+.iconeRedeSocial {
   font-size: 30px;
   transition: 0.3s;
 }
 
-.iconeRedeSocial:hover{
+.iconeRedeSocial:hover {
   font-size: 40px;
   transition: 0.3s;
 }
 
-.fab, .fa{
+.fab,
+.fa {
   color: rgb(255, 255, 255);
 }
 
-.fab:hover, .fa:hover {
+.fab:hover,
+.fa:hover {
   color: rgb(255, 145, 0);
 }
 
-
-.followUsHeader::after{
+.followUsHeader::after {
   content: "SIGA-NOS:";
 }
 
 /* ----------------------------------- */
- #mobile-menu {
-   /* background-color: rgb(0, 255, 255); */
+#mobile-menu {
+  /* background-color: rgb(0, 255, 255); */
   position: absolute;
   top: 1%;
   right: 5%;
@@ -112,9 +120,8 @@
   transition: all 0.3s ease;
 }
 
-
 .navbar__links:hover {
-  color: rgb(0, 0, 0);
+  color: #f05800ef;
   transition: all 0.3s ease;
   font-size: 2rem;
 }
@@ -143,7 +150,7 @@
 
 .navbar__menu.active {
   /* background: #f05800ef; */
-  background: linear-gradient(to right, #929292d8, #000000,#929292d8);
+  background: linear-gradient(to right, #929292d8, #000000, #929292d8);
   top: 5%;
   opacity: 1;
   transition: all 0.5s ease;
@@ -184,8 +191,8 @@
   }
 
   #mobile-menu {
-   top: 2%;
- }
+    top: 2%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -193,17 +200,44 @@
     font-size: 30px;
   }
 
-  .followUsHeader::after{
+  .followUsHeader::after {
     content: "";
- }
+  }
 
- .navbar__menu.active {
-  top: 7%;
+  .navbar__menu.active {
+    top: 7%;
+  }
+
+  .followUs {
+    width: 40%;
+  }
 }
 
- .followUs {
-  width: 40%;
-}
+@media screen and (max-height: 420px) {
+  .navbar h4 {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
 
-}
+  .followUs {
+    height: 10vh;
+    width: 30%;
+    margin-left: 2%;
+  }
 
+  #mobile-menu {
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .navbar__menu.active {
+    top: 10%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 99;
+    height: 90vh;
+    font-size: 1.6rem;
+  }
+}

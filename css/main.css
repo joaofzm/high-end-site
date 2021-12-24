@@ -22,13 +22,12 @@
 }
 
 @media screen and (max-height: 800px) {
- .hero {
-  height: 80vh;
- }
- .logo {
-  padding-top: 11%;
-}
-
+  .hero {
+    height: 80vh;
+  }
+  .logo {
+    padding-top: 11%;
+  }
 }
 
 @media screen and (max-width: 850px) {
@@ -46,6 +45,12 @@
   }
 }
 
+
+@media screen and (max-height: 420px) {
+  .logo {
+    padding-top: 3%;
+  }
+}
 
 
 

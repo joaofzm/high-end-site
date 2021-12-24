@@ -176,3 +176,23 @@
   }
   
 }
+
+@media screen and (max-height: 420px) {
+  .services__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .servicesH4 {
+    margin-top: -10%;
+    margin-bottom: 1%;
+    font-size: 18px;
+  }
+
+  .services__card {
+    margin: 10px;
+    height: 40vh;
+    width: 20vw;
+  }
+}

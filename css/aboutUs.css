@@ -108,3 +108,15 @@
     padding-top: 8%;
   }
 }
+
+@media screen and (max-height: 420px) {
+  .logo {
+    padding-top: 3%;
+  }
+  .aboutH4 {
+    font-size: 20px;
+  }
+  .aboutP {
+    font-size: 8px;
+  }
+}
