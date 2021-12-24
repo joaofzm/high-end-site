@@ -103,7 +103,7 @@
   }
 }
 
-@media screen and (max-height: 850px) and (min-width: 700px) {
+@media screen and (max-height: 850px) and (min-width: 600px) {
   .itemsDiv{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
