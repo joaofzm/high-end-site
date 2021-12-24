@@ -190,6 +190,10 @@
     font-size: 18px;
   }
 
+  .serviceMenuP{
+    font-size: 12px;
+  }
+
   .services__card {
     margin: 10px;
     height: 40vh;
